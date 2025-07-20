@@ -5,7 +5,7 @@ def factorial(n):
     result = 1
     while n > 1:
         result *= n
-        n -= 1  # 👈 إصلاح الخطأ: تقليل n داخل الحلقة
+        n -= 1
     return result
 
 f = factorial(int(sys.argv[1]))
